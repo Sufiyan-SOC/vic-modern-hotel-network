@@ -44,7 +44,7 @@ All three routers are located in the **IT/server-room area** and are interconnec
 
 The following diagram shows the implemented hotel network, including the three floors, routers, switches, departmental VLANs, wireless access points, end devices, printers, and the dedicated IT Test-PC.
 
-![Vic Modern Hotel Network Topology](vic-modern-hotel-topology.png)
+![Vic Modern Hotel Network Topology](2_topology/vic-modern-hotel-topology.png)
 
 
 ---
