@@ -1,0 +1,41 @@
+hostname F2-Router
+ip dhcp pool Finance
+ network 192.168.5.0 255.255.255.0
+ default-router 192.168.5.1
+ dns-server 192.168.5.1
+ip dhcp pool HR
+ network 192.168.4.0 255.255.255.0
+ default-router 192.168.4.1
+ dns-server 192.168.4.1
+ip dhcp pool Sales
+ network 192.168.3.0 255.255.255.0
+ default-router 192.168.3.1
+ dns-server 192.168.3.1
+username sk password 0 sk
+ip domain-name sk
+interface GigabitEthernet0/0.30
+ encapsulation dot1Q 30
+ ip address 192.168.3.1 255.255.255.0
+interface GigabitEthernet0/0.40
+ encapsulation dot1Q 40
+ ip address 192.168.4.1 255.255.255.0
+interface GigabitEthernet0/0.50
+ encapsulation dot1Q 50
+ ip address 192.168.5.1 255.255.255.0
+interface Serial0/1/0
+ ip address 10.10.10.1 255.255.255.252
+interface Serial0/1/1
+ ip address 10.10.10.10 255.255.255.252
+ clock rate 64000
+router ospf 10
+ network 10.10.10.0 0.0.0.3 area 0
+ network 10.10.10.8 0.0.0.3 area 0
+ network 192.168.3.0 0.0.0.255 area 0
+ network 192.168.4.0 0.0.0.255 area 0
+ network 192.168.5.0 0.0.0.255 area 0
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh

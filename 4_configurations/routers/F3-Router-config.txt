@@ -1,0 +1,34 @@
+hostname F3-Router
+ip dhcp pool IT
+ network 192.168.1.0 255.255.255.0
+ default-router 192.168.1.1
+ dns-server 192.168.1.1
+ip dhcp pool Admin
+ network 192.168.2.0 255.255.255.0
+ default-router 192.168.2.1
+ dns-server 192.168.2.1
+username sk password 0 sk
+ip domain-name sk
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.1.1 255.255.255.0
+interface GigabitEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.2.1 255.255.255.0
+interface Serial0/2/0
+ ip address 10.10.10.6 255.255.255.252
+ clock rate 64000
+interface Serial0/2/1
+ ip address 10.10.10.2 255.255.255.252
+ clock rate 64000
+router ospf 10
+ network 10.10.10.4 0.0.0.3 area 0
+ network 10.10.10.0 0.0.0.3 area 0
+ network 192.168.1.0 0.0.0.255 area 0
+ network 192.168.2.0 0.0.0.255 area 0
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
