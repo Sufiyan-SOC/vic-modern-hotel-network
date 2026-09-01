@@ -574,7 +574,20 @@ The main learning outcomes include:
 **Testing:** ICMP / Cisco IOS verification commands
 
 ---
+## 👨‍💻 Author
 
+### Shaikh Sufiyan
+
+Networking enthusiast focused on practical Cisco networking, network design, and troubleshooting.
+
+**Skills demonstrated:** VLANs · Inter-VLAN Routing · OSPF · DHCP · SSH · Port Security
+
+### Connect
+
+- **GitHub:** [shaikh-sufiyan-3](https://github.com/shaikh-sufiyan-3)
+- **LinkedIn:** [Shaikh Sufiyan](https://www.linkedin.com/in/shaikh-sufiyan-aab51a3b1/)
+- **Email:** shaikh.sufiyan.sec@gmail.com
+---
 ## 📌 Note
 
 This repository documents the network as implemented and verified in Cisco Packet Tracer. Configuration details and verification results are based on the implemented lab environment rather than a production deployment.
