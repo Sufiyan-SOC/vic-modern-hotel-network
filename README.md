@@ -538,6 +538,7 @@ vic-modern-hotel-network/
 └── 📁 results/
     ├── 📄 connectivity-tests.md
     └── 📄 verification-results.md
+```
 ---
 
 # 🎯 Key Learning Outcomes
