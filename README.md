@@ -470,75 +470,74 @@ This project demonstrates practical networking skills in:
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
-
+```text
 vic-modern-hotel-network/
 │
-├── README.md
+├── 📄 README.md
 │
-├── packet-tracer/
-│   └── Vic-Modern-Hotel.pkt
+├── 📁 packet-tracer/
+│   └── 📄 Vic-Modern-Hotel.pkt
 │
-├── topology/
-│   └── vic-modern-hotel-topology.png
+├── 📁 topology/
+│   └── 🖼️ vic-modern-hotel-topology.png
 │
-├── addressing/
-│   ├── vlan-table.md
-│   ├── ip-addressing-table.md
-│   └── router-serial-links.md
+├── 📁 addressing/
+│   ├── 📄 vlan-table.md
+│   ├── 📄 ip-addressing-table.md
+│   └── 📄 router-serial-links.md
 │
-├── configurations/
-│   ├── routers/
-│   │   ├── F1-Router-config.txt
-│   │   ├── F2-Router-config.txt
-│   │   └── F3-Router-config.txt
+├── 📁 configurations/
+│   ├── 📁 routers/
+│   │   ├── 📄 F1-Router-config.txt
+│   │   ├── 📄 F2-Router-config.txt
+│   │   └── 📄 F3-Router-config.txt
 │   │
-│   └── switches/
-│       ├── F1-Switch-config.txt
-│       ├── F2-Switch-config.txt
-│       └── F3-Switch-config.txt
+│   └── 📁 switches/
+│       ├── 📄 F1-Switch-config.txt
+│       ├── 📄 F2-Switch-config.txt
+│       └── 📄 F3-Switch-config.txt
 │
-├── documentation/
-│   ├── 01-project-overview.md
-│   ├── 02-network-topology.md
-│   ├── 03-vlan-configuration.md
-│   ├── 04-ip-addressing.md
-│   ├── 05-inter-vlan-routing.md
-│   ├── 06-ospf-routing.md
-│   ├── 07-dhcp-configuration.md
-│   ├── 08-wireless-network.md
-│   ├── 09-ssh-configuration.md
-│   ├── 10-port-security.md
-│   └── 11-network-testing.md
+├── 📁 documentation/
+│   ├── 📄 01-project-overview.md
+│   ├── 📄 02-network-topology.md
+│   ├── 📄 03-vlan-configuration.md
+│   ├── 📄 04-ip-addressing.md
+│   ├── 📄 05-inter-vlan-routing.md
+│   ├── 📄 06-ospf-routing.md
+│   ├── 📄 07-dhcp-configuration.md
+│   ├── 📄 08-wireless-network.md
+│   ├── 📄 09-ssh-configuration.md
+│   ├── 📄 10-port-security.md
+│   └── 📄 11-network-testing.md
 │
-├── screenshots/
-│   ├── 01-final-topology.png
-│   ├── 02-f1-vlans.png
-│   ├── 03-f2-vlans.png
-│   ├── 04-f3-vlans.png
-│   ├── 05-f1-trunk.png
-│   ├── 06-f2-trunk.png
-│   ├── 07-f3-trunk.png
-│   ├── 08-f1-ospf-neighbors.png
-│   ├── 09-f2-ospf-neighbors.png
-│   ├── 10-f3-ospf-neighbors.png
-│   ├── 11-f1-routing-table.png
-│   ├── 12-f2-routing-table.png
-│   ├── 13-f3-routing-table.png
-│   ├── 14-f1-dhcp.png
-│   ├── 15-f2-dhcp.png
-│   ├── 16-f3-dhcp.png
-│   ├── 17-test-pc-ssh.png
-│   ├── 18-port-security-summary.png
-│   ├── 19-fa0-2-port-security.png
-│   ├── 20-test-pc-sticky-mac.png
-│   └── 21-cross-vlan-connectivity.png
+├── 📁 screenshots/
+│   ├── 🖼️ 01-final-topology.png
+│   ├── 🖼️ 02-f1-vlans.png
+│   ├── 🖼️ 03-f2-vlans.png
+│   ├── 🖼️ 04-f3-vlans.png
+│   ├── 🖼️ 05-f1-trunk.png
+│   ├── 🖼️ 06-f2-trunk.png
+│   ├── 🖼️ 07-f3-trunk.png
+│   ├── 🖼️ 08-f1-ospf-neighbors.png
+│   ├── 🖼️ 09-f2-ospf-neighbors.png
+│   ├── 🖼️ 10-f3-ospf-neighbors.png
+│   ├── 🖼️ 11-f1-routing-table.png
+│   ├── 🖼️ 12-f2-routing-table.png
+│   ├── 🖼️ 13-f3-routing-table.png
+│   ├── 🖼️ 14-f1-dhcp.png
+│   ├── 🖼️ 15-f2-dhcp.png
+│   ├── 🖼️ 16-f3-dhcp.png
+│   ├── 🖼️ 17-test-pc-ssh.png
+│   ├── 🖼️ 18-port-security-summary.png
+│   ├── 🖼️ 19-fa0-2-port-security.png
+│   ├── 🖼️ 20-test-pc-sticky-mac.png
+│   └── 🖼️ 21-cross-vlan-connectivity.png
 │
-└── results/
-    ├── connectivity-tests.md
-    └── verification-results.md
-
+└── 📁 results/
+    ├── 📄 connectivity-tests.md
+    └── 📄 verification-results.md
 ---
 
 # 🎯 Key Learning Outcomes
